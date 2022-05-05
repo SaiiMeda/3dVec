@@ -1,0 +1,16 @@
+{
+  "name": "3dvec",
+  "version": "1.0.4",
+  "description": "A package to perform 3D Vector operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "jsdoc -d docs --configure jsconf.json *.js"
+  },
+  
+  "author": "Sai Meda",
+  "license": "MIT",
+  "dependencies": {
+    "3dvec": "^1.0.4"
+  }
+}
