@@ -11,8 +11,12 @@ For this repo
 
 First,
   > npm install --legacy-peer-deps
+ 
 Testing using jasmine ( the tests are in src/ directory)
 >jasmine 
+
 Generate a jasmine webpage with tests
+
 >node jas.js
 
+This generates a jasmine website in the results folder. 
