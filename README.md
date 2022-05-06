@@ -65,3 +65,17 @@ This generates a jasmine website in the results folder.
 > y = vec(1,1,1) 
 
 > z = equal(x,y)
+
+### Coding Statistics
+
+Time Taken : 4 hours
+
+Questions
+- How to publish a node module?
+- What are the edge cases for the different vector operations?
+- How many tests are enough for each of the functions?
+
+
+TradeOffs
+- Spent more time learning how to perform JS testing than writing the tests itself
+- Spent the least time writing instructions since I took more time learning things
