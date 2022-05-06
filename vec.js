@@ -15,13 +15,6 @@ function vec3()
       out[1] = 0.0;
       out[2] = 0.0;
       return out;
-    case 1:
-    if((arguments[0].type == "vec3")) {
-      out[0] = arguments[0][0];
-      out[1] = arguments[0][1];
-      out[2] = arguments[0][2];
-      return out;
-    }
     case 3:
       out[0] = arguments[0];
       out[1] = arguments[1];

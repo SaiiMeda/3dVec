@@ -5,7 +5,7 @@
  * @param {vec3} v the second vector
  * @returns {vec3} the vector resulting after addition
  */
-function add(u, v) {
+ function add(u, v) {
   if (u.type != v.type) {
     throw "add(): trying to add different types";
   }

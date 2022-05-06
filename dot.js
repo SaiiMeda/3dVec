@@ -5,7 +5,7 @@
  * @param {vec3} v the second vector
  * @returns {int} the integer value of the dot product
  */
-function dot(u, v) {
+ function dot(u, v) {
   if (u.type != v.type) {
     throw "dot(): types are not the same ";
   }

@@ -1,15 +1,16 @@
 {
   "name": "3dvec",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "A package to perform 3D Vector operations.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "author": "Sai Meda",
   "license": "MIT",
   "dependencies": {
-    "3dvec": "^1.0.4"
+    "3dvec": "^1.0.3",
+    "jasmine": "^4.1.0",
+    "jasmine-pretty-html-reporter": "^0.2.5"
   }
 }

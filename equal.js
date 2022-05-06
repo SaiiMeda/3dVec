@@ -5,7 +5,7 @@
  * @param {vec3} v the second vector we're using to equate
  * @returns {boolean} the bool value if they're true or false
  */
-function equal(u, v) {
+ function equal(u, v) {
   if (u.type != v.type) throw "equal: types different";
   if (u.type == "vec3") {
     for (var i = 0; i < u.length; ++i) if (u[i] !== v[i]) return false;
